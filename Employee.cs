@@ -6,25 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Jewelry
+    public class Employee
     {
 
-        public string JewelType { get; set; }
-        public double JCost { get; set; }
-        public string Description { get; set; }
+        public string EmpName { get; set; }
+        public string Makes { get; set; }
+        public int AssignedOrder { get; set; }
 
-        public List<string> type { get; set; }
-        public List<double> Jprice { get; set; }
-
-        public Jewelry()
+        public Employee()
         {
-            List<string> type = new List<string>();
-            type.Add("bracelet");
-            type.Add("necklace");
-            type.Add("ring");
-
-
-            price = new List<double>();
+           
         }
 
     }

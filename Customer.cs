@@ -4,20 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ClassProject.Model
 {
     public class Customer
     {
-        public List<Customer> customer { get; set; }
+        private static int autoIncreament;
+        public int Id { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
         public Customer()
         {
-            customer = new List<Customer>();
+            autoIncreament++;
+            Id = autoIncreament;
         }
-
-  /*     public Customer Authenticate(string username, string password)
-        {
-            Customer c = customer;
-       }
-   */ }
+    }
 }

@@ -22,7 +22,17 @@ namespace ConsoleApp1
             type.Add("bracelet");
             type.Add("necklace");
             type.Add("ring");
+<<<<<<< HEAD
 
 
             price = new List<double>();
+=======
+
+
+            price = new List<double>();
+        }
+
+    }
+}
+>>>>>>> e8499328bfcd033a71e5263860f32c80e2b78a5d
 

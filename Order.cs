@@ -9,7 +9,6 @@ namespace ConsoleApp1
     public class Order
     {
         private string ID;
-        private string Date;
         private string Jewlery;
         private string status;
 

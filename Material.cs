@@ -17,10 +17,10 @@ namespace ConsoleApp1
             this.size = size;
             this.qty = qty;
         }
-        public string type { get; set; }
-        public double cost { get; set; }
-        public string color { get; set; }
-        public string size { get; set; }
+        public string MatType { get; set; }
+        public double MatCost { get; set; }
+        public string Color { get; set; }
+        public string Size { get; set; }
         public int qty { get; set; }
 
         public string checkQty

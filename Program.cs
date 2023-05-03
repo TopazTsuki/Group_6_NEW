@@ -6,6 +6,9 @@
         {
             Material m = new Material("beads", 1, "blue", "small", 30);
             Console.WriteLine(m.type);
+
+
+
         }
     }
 }

@@ -12,7 +12,7 @@ namespace ConsoleApp1
         private string Jewlery;
         private string status;
 
-        public List<Jewlery> Items { get; set; }
+        public List<Jewelry> Items { get; set; }
 
         public Order()
         {

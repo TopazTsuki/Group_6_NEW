@@ -12,12 +12,23 @@ namespace ConsoleApp1
         private string Jewlery;
         private string status;
 
-        public List<Jewlery> Items { get; set; }
+        public List<Jewelry> Items { get; set; }
 
         public Order()
         {
             Items = new List<Jewlery>();
         }
+
+        // Order Method Draft 1 
+        public string Order(string ID, string JewlType, string description)
+        {
+            Order Order = new Order();
+        }
+
+
+
+
+
 
     }
 }

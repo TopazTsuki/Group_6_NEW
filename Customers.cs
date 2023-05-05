@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassProject.Model
+
+
 {
     public class Customers
     {
@@ -29,4 +30,3 @@ namespace ClassProject.Model
             }
         }
     }
-}

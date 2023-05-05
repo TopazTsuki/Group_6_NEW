@@ -14,7 +14,7 @@ namespace ConsoleApp1
         public string Description { get; set; }
 
         public List<string> type { get; set; }
-        public List<double> Jprice { get; set; }
+        public List<double> JPrice { get; set; }
 
         public Jewelry()
         {
@@ -22,17 +22,13 @@ namespace ConsoleApp1
             type.Add("bracelet");
             type.Add("necklace");
             type.Add("ring");
-<<<<<<< HEAD
 
-
-            price = new List<double>();
-=======
-
-
-            price = new List<double>();
+            List<double> JPrice = new List<double>();
+            JPrice.Add(10.00);
+            JPrice.Add(15.50);
+            JPrice.Add(12.50);
         }
 
     }
 }
->>>>>>> e8499328bfcd033a71e5263860f32c80e2b78a5d
 

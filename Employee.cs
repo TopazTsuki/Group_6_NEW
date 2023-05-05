@@ -11,27 +11,17 @@ public class Employee
 {
     public class Employee
     {
-        private string name;
-        private string makes;
-        private int assignedOrder;
+     
 
-        public string JewelType { get; set; }
-        public double JCost { get; set; }
-        public string Description { get; set; }
+        public string name { get; set; }
+        public string makes { get; set; }
+        public int assignedOrder { get; set; }
 
-        public List<string> type { get; set; }
-        public List<double> Jprice { get; set; }
+       public Employee() 
+       { 
+        
+        
+       }
 
-        public Jewelry()
-        {
-            List<string> type = new List<string>();
-            type.Add("bracelet");
-            type.Add("necklace");
-            type.Add("ring");
-
-
-            price = new List<double>();
-        }
-
-    }
+       
 }

@@ -19,7 +19,7 @@ namespace ConsoleApp1
             Items = new List<Jewlery>();
         }
 
-        // Order Method Draft 1 
+        // Consturct order method that 
         public string Order(string ID, string JewlType, string description)
         {
             Order Order = new Order();

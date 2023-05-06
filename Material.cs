@@ -17,6 +17,7 @@ namespace ConsoleApp1
             this.size = size;
             this.qty = qty;
         }
+        // Allow acess to the order variables. 
         public string type { get; set; }
         public double cost { get; set; }
         public string color { get; set; }

@@ -4,6 +4,13 @@
     {
     static void Main(string[] args)
         {
+            // Have user login 
+            Console.WriteLine("Hello, please enter your username.");
+            string Username = console.ReadLine();
+            Console.WriteLine("Hello, please enter your password.");
+            string Password = console.ReadLine();
+
+
             // Have customer input item specific details and store them as variables. 
             Console.WriteLine("Hello, please answer the following prompts to place your order.");
             Console.WriteLine("Please enter your desired item: ");
@@ -19,8 +26,10 @@
 
             // Take down customer information
             Console.WriteLine("Hello, please answer the following prompts to create your account.");
-            Console.WriteLine("Please enter your name: ");
-            string name = console.ReadLine();
+            Console.WriteLine("Please enter your first name: ");
+            string FirstName = console.ReadLine();
+            Console.WriteLine("Please enter your last name: ");
+            string LastName = console.ReadLine();
             Console.WriteLine("Please enter your address: ");
             string address = console.ReadLine();
             Console.WriteLine("Please enter your username: ");
@@ -28,7 +37,7 @@
             Console.WriteLine("Please enter your password: ");
             string password = console.readline();
 
-            // Have user login to confirm setup 
+           
 
 
             Material m = new Material("beads", 1, "blue", "small", 30);

@@ -8,22 +8,17 @@ namespace ConsoleApp1
 {
     public class Order
     {
-        private string ID;
-        private string Jewlery;
-        private string status;
-
+        public int ID { get; set; }
+        public Jewelry Jewel { get; set; }
+        public string status { get; set; }
         public List<Jewelry> Items { get; set; }
 
         public Order()
         {
-            Items = new List<Jewlery>();
+            Items = new List<Jewelry>();
         }
 
-        // Order Method Draft 1 
-        public string Order(string ID, string JewlType, string description)
-        {
-            Order Order = new Order();
-        }
+      
 
 
 

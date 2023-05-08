@@ -7,9 +7,9 @@
             // Have customer input item specific details and store them as variables. 
             Console.WriteLine("Hello, please answer the following prompts to place your order.");
             Console.WriteLine("Please enter your desired item: ");
-            string JewlType = console.ReadLine();
+            string JewlType = Console.ReadLine();
             Console.WriteLine("Please enter a description of your desired item: ");
-            string Description = console.ReadLine();
+            string Description = Console.ReadLine();
             
             // Write back customer inputs. 
             Console.WriteLine("You have requested: ");
@@ -20,19 +20,18 @@
             // Take down customer information
             Console.WriteLine("Hello, please answer the following prompts to create your account.");
             Console.WriteLine("Please enter your name: ");
-            string name = console.ReadLine();
+            string name = Console.ReadLine();
             Console.WriteLine("Please enter your address: ");
-            string address = console.ReadLine();
+            string address = Console.ReadLine();
             Console.WriteLine("Please enter your username: ");
-            string username = console.ReadLine();
+            string username = Console.ReadLine();
             Console.WriteLine("Please enter your password: ");
-            string password = console.readline();
+            string password = Console.ReadLine();
 
             // Have user login to confirm setup 
 
 
-            Material m = new Material("beads", 1, "blue", "small", 30);
-            Console.WriteLine(m.type);
+       
         }
     }
 }
